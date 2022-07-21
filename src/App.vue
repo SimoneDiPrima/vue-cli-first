@@ -3,17 +3,19 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 
-    <Header/>
+    <MyHeader/>
+    <JumboImage/>
   </div>
 </template>
 
 <script>
-import Header from './components/Title.vue'
-
+import MyHeader from './components/TitleComponent.vue'
+import JumboImage from './components/JumbotronComponent.vue'
 export default {
   name: 'App',
   components: {
-    Header
+    MyHeader,
+    JumboImage
   }
 }
 </script>
@@ -24,7 +26,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
   margin-top: 60px;
 }
 </style>

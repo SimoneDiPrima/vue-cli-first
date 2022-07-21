@@ -8,15 +8,13 @@
 
 <script>
 export default {
-  name: 'App',
-  components: {
-    name:"Header",
-  }
+  name: 'TitleComponent',
 }
+
 </script>
 
 <style>
-#app {
+header {
     background-color: blue;
     color:white;
     text-align:center;
