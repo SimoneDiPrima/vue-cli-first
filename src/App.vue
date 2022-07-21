@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Title.vue'
 
 export default {
